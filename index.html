@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive To-Do App</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="heading">
-        <h1>My Todo App</h1>
+
+  <div class="app-container">
+    <h1>To-Do List</h1>
+    <div class="input-section">
+      <input type="text" id="task" placeholder="Enter your task" required>
+      <input type="time" id="time" required>
+      <select id="priority">
+        <option value="1">Do First</option>
+        <option value="2">Do Next</option>
+        <option value="3">Delegated</option>
+        <option value="4">Do Later/Drop</option>
+      </select>
+      <button onclick="addTask()">Add Task</button>
     </div>
-    <div class="upr">
-        <div class="inr">
-            <input type="text" placeholder="Enter Your Task" id="task" required> <br>
-            <input type="time" name="" id="time"  required>
-            <select id="type" name="choices" required>
-                <option >Type Of Your Task</option>
-                <option >Do 1st  </option>
-                <option >Do Next </option>  
-                <option >Delegated</option>
-                <option >Do later/Drop</option>
-            </select> <br>
-            <button type="submit">Add Task</button>
-        </div>
+
+    <div class="tasks-section">
+      <div id="do-first" class="task-container">
+        <h2>Do First</h2>
+        <ul id="first-tasks"></ul>
+      </div>
+      <div id="do-next" class="task-container">
+        <h2>Do Next</h2>
+        <ul id="next-tasks"></ul>
+      </div>
+      <div id="delegated" class="task-container">
+        <h2>Delegated</h2>
+        <ul id="delegated-tasks"></ul>
+      </div>
+      <div id="do-later" class="task-container">
+        <h2>Do Later/Drop</h2>
+        <ul id="later-tasks"></ul>
+      </div>
     </div>
-    <div class="utask">
-        <div class="box1">
-             
-        </div>
-        <div class="box2"></div>
-        <div class="box3"></div>
-        <div class="box4"></div>
-    </div>
-    <script src="script.js"></script>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
