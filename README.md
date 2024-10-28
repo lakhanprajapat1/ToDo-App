@@ -21,7 +21,7 @@ This is a simple, responsive to-do app created with HTML, CSS, and JavaScript. T
 ## Installation and Setup
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/lakhanprajapati1/ToDo-App.git
+   git clone https://github.com/lakhanprajapat1/ToDo-App.git
    cd ToDo-App
    Open index.html in any web browser
 
