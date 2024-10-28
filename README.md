@@ -16,7 +16,7 @@ This is a simple, responsive to-do app created with HTML, CSS, and JavaScript. T
 - **JavaScript**: Functionality to add, display, update, and store tasks.
 
 ## Project Structure
-<img  src ="/assets/structure.png" style="height:30vhvh; width:50vw">
+<img  src ="/assets/structure.png" style="height:30vhvh; width:50vw  @media (max-width: 600px) { height:40vhvh; width:80vw }">
 
 ## Installation and Setup
 1. **Clone the Repository**:
