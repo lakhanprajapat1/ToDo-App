@@ -1,4 +1,4 @@
-# Responsive To-Do App
+# Responsive Advance To-Do App
 
 This is a simple, responsive to-do app created with HTML, CSS, and JavaScript. The app allows users to add tasks with priority levels, mark tasks as done, remove tasks, and save tasks to the browser's local storage for persistence across page reloads.
 
